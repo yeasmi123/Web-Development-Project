@@ -1,0 +1,21 @@
+body { 
+  	
+color : #B40404; 
+background : #B40404; 
+font-family : "Times New Roman", Times, serif;
+font-size : 12pt; 
+}
+
+a { 
+  text-decoration : underline; 
+  color : #B40404; 
+}
+
+a:link:after, a:visited:after {
+content: " (" attr(href) ") ";
+font-size: 70%;
+}
+
+nav, sidebar, footer, header, aside { 
+  display : none; 
+}
